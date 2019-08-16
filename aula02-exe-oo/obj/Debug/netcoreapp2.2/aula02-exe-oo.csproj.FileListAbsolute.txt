@@ -1,0 +1,11 @@
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula02-exe-oo\bin\Debug\netcoreapp2.2\aula02-exe-oo.deps.json
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula02-exe-oo\bin\Debug\netcoreapp2.2\aula02-exe-oo.runtimeconfig.json
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula02-exe-oo\bin\Debug\netcoreapp2.2\aula02-exe-oo.runtimeconfig.dev.json
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula02-exe-oo\bin\Debug\netcoreapp2.2\aula02-exe-oo.dll
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula02-exe-oo\bin\Debug\netcoreapp2.2\aula02-exe-oo.pdb
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula02-exe-oo\obj\Debug\netcoreapp2.2\aula02-exe-oo.csprojAssemblyReference.cache
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula02-exe-oo\obj\Debug\netcoreapp2.2\aula02-exe-oo.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula02-exe-oo\obj\Debug\netcoreapp2.2\aula02-exe-oo.AssemblyInfoInputs.cache
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula02-exe-oo\obj\Debug\netcoreapp2.2\aula02-exe-oo.AssemblyInfo.cs
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula02-exe-oo\obj\Debug\netcoreapp2.2\aula02-exe-oo.dll
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula02-exe-oo\obj\Debug\netcoreapp2.2\aula02-exe-oo.pdb
