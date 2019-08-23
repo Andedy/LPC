@@ -1,0 +1,11 @@
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula-03-exercicio\diagramalivraria\bin\Debug\netcoreapp2.2\diagramalivraria.deps.json
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula-03-exercicio\diagramalivraria\bin\Debug\netcoreapp2.2\diagramalivraria.runtimeconfig.json
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula-03-exercicio\diagramalivraria\bin\Debug\netcoreapp2.2\diagramalivraria.runtimeconfig.dev.json
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula-03-exercicio\diagramalivraria\bin\Debug\netcoreapp2.2\diagramalivraria.dll
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula-03-exercicio\diagramalivraria\bin\Debug\netcoreapp2.2\diagramalivraria.pdb
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula-03-exercicio\diagramalivraria\obj\Debug\netcoreapp2.2\diagramalivraria.csprojAssemblyReference.cache
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula-03-exercicio\diagramalivraria\obj\Debug\netcoreapp2.2\diagramalivraria.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula-03-exercicio\diagramalivraria\obj\Debug\netcoreapp2.2\diagramalivraria.AssemblyInfoInputs.cache
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula-03-exercicio\diagramalivraria\obj\Debug\netcoreapp2.2\diagramalivraria.AssemblyInfo.cs
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula-03-exercicio\diagramalivraria\obj\Debug\netcoreapp2.2\diagramalivraria.dll
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula-03-exercicio\diagramalivraria\obj\Debug\netcoreapp2.2\diagramalivraria.pdb
