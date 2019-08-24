@@ -1,0 +1,19 @@
+﻿@model IEnumerable<aula05MVC.Models.Conta>
+
+
+<table class="table">
+        <tr>
+            <th>Codigo</th>
+            <th>Titular</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.codigo</td>
+                <td>@item.titular</td>
+            </tr>
+        }
+
+</table>
+
