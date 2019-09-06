@@ -30,3 +30,4 @@ C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\
 c:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula06-crudPessoa\obj\Debug\netcoreapp2.2\Razor\Views\People\Create.g.cshtml.cs
 c:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula06-crudPessoa\obj\Debug\netcoreapp2.2\Razor\Views\People\Index.g.cshtml.cs
 c:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula06-crudPessoa\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+c:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\aula06-crudPessoa\obj\Debug\netcoreapp2.2\Razor\Views\People\Edit.g.cshtml.cs

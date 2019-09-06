@@ -28,5 +28,12 @@ namespace aula06_crudPessoa.Models
             people.Remove(GetById(id));
         }
 
+        public void Update(Person person)
+        {
+            var i = people.FindIndex(x=>x.id == person.id);
+            people[i].name = person.name;
+            people[i].address = person.address;
+        }
+
     }
 }

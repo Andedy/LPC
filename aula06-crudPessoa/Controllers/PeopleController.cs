@@ -24,6 +24,26 @@ namespace aula06_crudPessoa.Controllers
             _repository.Create(person);
             return RedirectToAction("Index");
         }
+
+        public IActionResult Edit(int id)
+        {   
+            
+            return View(_repository.GetById(id));
+        }
+
+        [HttpPost]
+        public RedirectToActionResult Edit(Person person)
+        {            
+            _repository.Update(person);
+            return RedirectToAction("Index");
+        }
+
+
+        public IActionResult Delete(int id)
+        {   
+            _repository.Delete(id);
+            return RedirectToAction("Index");
+        }
         
     }
 }
