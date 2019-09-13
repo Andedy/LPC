@@ -10,7 +10,7 @@ namespace contasLuz.Controllers
             new ContaRepository();
         public IActionResult Index()
         {
-            var contas = _repository.GetAll();
+            var contas = _repository.GetAllContaLuz();
             return View(contas);
         }
         

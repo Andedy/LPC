@@ -1,5 +1,9 @@
 using System.Collections.Generic;
+using System;
+using System.Linq;
 namespace contasLuz.Models
+
+
 {
     public class ContaRepository
     {
@@ -13,7 +17,7 @@ namespace contasLuz.Models
         {
             contas.Add(Conta);
         }
-        public List<Conta> GetAll()
+        public List<Conta> GetAllContaLuz()
         {
             return contas;
         }
@@ -36,6 +40,20 @@ namespace contasLuz.Models
             contas[i].valorPagar = Conta.valorPagar;
             contas[i].dataPagamento = Conta.dataPagamento;
             contas[i].mediaConsumo = Conta.mediaConsumo;
+        }
+
+      public Conta menorConsumo()
+        {
+            // contasLuz.OrderBy(cont => cont.kwGasto).First();
+            // contasLuz.OrderByDescending(cont => cont.kwGasto).Last();
+            return contas.Find(cont => cont.kwGasto == contas.Min(conta => conta.kwGasto));
+        }
+
+        public Conta maiorConsumo()
+        {
+            // contasLuz.OrderBy(cont => cont.kwGasto).Last();
+            // contasLuz.OrderByDescending(cont => cont.kwGasto).First();
+            return contas.Find(cont => cont.kwGasto == contas.Max(conta => conta.kwGasto));
         }
 
     }
