@@ -3,50 +3,53 @@ using System;
 using System.Linq;
 namespace contasLuz.Models
 
-
 {
-    public class ContaRepository
+    public class ContaRepository : IContaRepository
     {
-        public static List<Conta> contas = new List<Conta>();
+        private DataContext context;
     
-        public ContaRepository()
+        public ContaRepository(DataContext context)
         {           
+            this.context = context;
         }
 
-        public void Create(Conta Conta)
+        public void Create(Conta conta)
         {
-            contas.Add(Conta);
+            context.contaLuz.Add(conta);
+            context.SaveChanges();
         }
         public List<Conta> GetAllContaLuz()
         {
-            return contas;
+            return context.contaLuz.ToList();
         }
         
-        public Conta GetById(int numeroLeitura)
+        public Conta GetById(int id)
         {
-            return contas.Find(i=>i.numeroLeitura == numeroLeitura);
+            return context.contaLuz.SingleOrDefault(x=>x.id ==id);
         }
-        public void Delete(int numeroLeitura)
+        public void Delete(int id)
         {
-            contas.Remove(GetById(numeroLeitura));
-        }
-
-        public void Update(Conta Conta)
-        {
-            var i = contas.FindIndex(x=>x.numeroLeitura == Conta.numeroLeitura);
-            contas[i].numeroLeitura = Conta.numeroLeitura;
-            contas[i].dataLeitura = Conta.dataLeitura;
-            contas[i].kwGasto = Conta.kwGasto;
-            contas[i].valorPagar = Conta.valorPagar;
-            contas[i].dataPagamento = Conta.dataPagamento;
-            contas[i].mediaConsumo = Conta.mediaConsumo;
+           context.contaLuz.Remove(GetById(id));
+            context.SaveChanges();
         }
 
-      public Conta menorConsumo()
+        public void Update(Conta conta)
+        {
+            var objContaLuz = GetById(conta.id);
+            objContaLuz.numeroLeitura = conta.numeroLeitura;
+            objContaLuz.dataLeitura = conta.dataLeitura;
+            objContaLuz.kwGasto = conta.kwGasto;
+            objContaLuz.valorPagar = conta.valorPagar;
+            objContaLuz.dataPagamento = conta.dataPagamento;
+            objContaLuz.mediaConsumo = conta.mediaConsumo;
+             context.SaveChanges();
+        }
+
+     /* public Conta menorConsumo()
         {
             // contasLuz.OrderBy(cont => cont.kwGasto).First();
             // contasLuz.OrderByDescending(cont => cont.kwGasto).Last();
-            return contas.Find(cont => cont.kwGasto == contas.Min(conta => conta.kwGasto));
+            return context.contaLuz.Find(cont => cont.kwGasto == contas.Min(conta => conta.kwGasto));
         }
 
         public Conta maiorConsumo()
@@ -54,7 +57,11 @@ namespace contasLuz.Models
             // contasLuz.OrderBy(cont => cont.kwGasto).Last();
             // contasLuz.OrderByDescending(cont => cont.kwGasto).First();
             return contas.Find(cont => cont.kwGasto == contas.Max(conta => conta.kwGasto));
-        }
+        }*/
 
+        public List<Conta> GetAll()
+        {    
+         return context.contaLuz.ToList();
+        }
     }
 }

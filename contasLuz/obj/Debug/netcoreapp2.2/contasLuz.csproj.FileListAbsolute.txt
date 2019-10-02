@@ -63,3 +63,4 @@ C:\Users\Felipe\Documents\lpc-torres-2019-2\contasLuz\obj\Debug\netcoreapp2.2\co
 C:\Users\Felipe\Documents\lpc-torres-2019-2\contasLuz\obj\Debug\netcoreapp2.2\contasLuz.dll
 C:\Users\Felipe\Documents\lpc-torres-2019-2\contasLuz\obj\Debug\netcoreapp2.2\contasLuz.pdb
 C:\Users\Felipe\Documents\lpc-torres-2019-2\contasLuz\obj\Debug\netcoreapp2.2\contasLuz.csproj.CopyComplete
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz\obj\Debug\netcoreapp2.2\Razor\Views\Conta\Edit.g.cshtml.cs
