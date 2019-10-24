@@ -2,15 +2,24 @@ namespace diagramalivraria
 {
     public class Materiais
     {
-        private string idMaterial{ get; set; }
-        public string Assunto { get; set; }
-        private string Titulo{ get; set; }
-        private Reservas reserva = new Reservas();
-
-        public void Emprestar(){
-    
+        public Materiais(int codigo, string assunto, string titulo)
+        {
+            this.codigo = codigo;
+            this.assunto = assunto;
+            this.titulo = titulo;
         }
-        public void Devolver(){
+
+        public int codigo { get; set; }
+        public string assunto { get; set; }
+        public string titulo { get; set; }
+        
+
+        private Revistas revista ;
+
+        public void emprestar(){
+
+        }
+        public void devolver(){
 
         }
     }

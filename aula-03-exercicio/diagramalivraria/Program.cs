@@ -6,10 +6,11 @@ namespace diagramalivraria
     {
         static void Main(string[] args)
         {
+           
            Materiais material = new Materiais();
 
-           material.Emprestar();
-           material.Devolver();
+           material.emprestar();
+           material.devolver();
         }
     }
 }

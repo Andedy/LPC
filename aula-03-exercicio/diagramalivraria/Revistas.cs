@@ -2,16 +2,27 @@ using System;
 
 namespace diagramalivraria
 {
-    public class Revistas
+    public class Revistas : Materiais
     {
-        private string Colecao{ get; set; }
-        private string Editora{ get; set; }
-        private Artigos artigos = new Artigos();
+    
+        public Revistas(int codigo, string assunto, string titulo) : base (codigo,assunto,titulo)
+        {
+            this.colecao = colecao;
+            this.editora = editora;
+            this.codigo = codigo;
+            this.assunto = assunto;
+            this.titulo = titulo;
+            
+        }
 
-        public void MostraDetalhes(){
-            Console.WriteLine(this.Colecao);
-            Console.WriteLine(this.Editora);
-            Console.WriteLine(this.artigos);
+        public string colecao { get; set; }
+        public string editora { get; set; }
+        public Materiais material { get; set; }
+
+        public void mostraDetalhes(){
+            Console.WriteLine(this.colecao);
+            Console.WriteLine(this.editora);
+
         }
     }
 }  

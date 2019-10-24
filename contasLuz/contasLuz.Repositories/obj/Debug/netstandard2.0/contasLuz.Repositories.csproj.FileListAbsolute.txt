@@ -1,0 +1,4 @@
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz\contasLuz.Repositories\obj\Debug\netstandard2.0\contasLuz.Repositories.csprojAssemblyReference.cache
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz\contasLuz.Repositories\obj\Debug\netstandard2.0\contasLuz.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz\contasLuz.Repositories\obj\Debug\netstandard2.0\contasLuz.Repositories.AssemblyInfoInputs.cache
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz\contasLuz.Repositories\obj\Debug\netstandard2.0\contasLuz.Repositories.AssemblyInfo.cs
