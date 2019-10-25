@@ -19,8 +19,8 @@ namespace contasLuz.Domain.Entities
             this.mediaConsumo = mediaConsumo;             
         }
 
-        public int id { get; set; }
-        public int numeroLeitura { get; set; }
+       public int id { get; set; }
+       public int numeroLeitura { get; set; }
        public DateTime dataLeitura { get; set; }
        public int kwGasto { get; set; }
        public double valorPagar { get; set; }

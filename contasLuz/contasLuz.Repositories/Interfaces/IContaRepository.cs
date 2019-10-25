@@ -3,7 +3,8 @@ using contasLuz.Domain;
 
 namespace contasLuz.Repositories.Interfaces
 {
-    public interface IContaRepository
+    
+    public interface IContaRepository : IBaseRepository<contasLuz>
     {   
         void Create(Conta conta);
         void Update(Conta conta);
