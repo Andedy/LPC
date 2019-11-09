@@ -40,9 +40,9 @@ namespace contasLuz.MVC
 
             services.AddDbContext<DataContext>(x => x.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddScoped<IContaLuzRepository, ContaLuzRepository>();
+            services.AddScoped<IContaLuzRepositories, ContaLuzRepositories>();
             
-            services.AddScoped<IImovelRepository, ImovelRepository>();
+            services.AddScoped<IImovelRepositories, ImovelRepositories>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

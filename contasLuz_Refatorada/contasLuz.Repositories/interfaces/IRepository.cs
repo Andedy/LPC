@@ -3,7 +3,7 @@ using contasLuz.Entities;
 
 namespace contasLuz.interfaces
 {
-    public interface IRepository<T> where T : BaseEntity
+    public interface IRepositories<T> where T : BaseEntity
     {
         T Get(int id);
         IEnumerable<T> Get();

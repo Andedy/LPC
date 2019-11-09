@@ -7,11 +7,11 @@ using contasLuz.interfaces;
 
 namespace contasLuz.repositories
 {
-    public class ContaLuzRepository : IContaLuzRepository
+    public class ContaLuzRepositories : IContaLuzRepositories
     {
         private DataContext context;
 
-        public ContaLuzRepository(DataContext context)
+        public ContaLuzRepositories(DataContext context)
         {
             this.context = context;
         }

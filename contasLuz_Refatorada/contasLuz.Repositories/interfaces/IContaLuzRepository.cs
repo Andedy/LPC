@@ -3,7 +3,7 @@ using contasLuz.Entities;
 
 namespace contasLuz.interfaces
 {
-    public interface IContaLuzRepository : IRepository<ContaLuz>
+    public interface IContaLuzRepositories : IRepositories<ContaLuz>
     {
         ContaLuz GetMenorConsumo();
         ContaLuz GetMaiorConsumo();

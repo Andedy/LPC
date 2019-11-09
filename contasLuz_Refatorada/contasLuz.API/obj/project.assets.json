@@ -4998,30 +4998,30 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "Proj.Domain/1.0.0": {
+      "contasLuz.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/Proj.Domain.dll": {}
+          "bin/placeholder/contasLuz.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Proj.Domain.dll": {}
+          "bin/placeholder/contasLuz.Domain.dll": {}
         }
       },
-      "Proj.Repository/1.0.0": {
+      "contasLuz.Repositories/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "2.2.6",
           "Microsoft.VisualStudio.Web.CodeGeneration.Tools": "2.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.4",
-          "Proj.Domain": "1.0.0"
+          "contasLuz.Domain": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Proj.Repository.dll": {}
+          "bin/placeholder/contasLuz.Repositories.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Proj.Repository.dll": {}
+          "bin/placeholder/contasLuz.Repositories.dll": {}
         }
       }
     }
@@ -13359,15 +13359,15 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "Proj.Domain/1.0.0": {
+    "contasLuz.Domain/1.0.0": {
       "type": "project",
-      "path": "../Proj.Domain/Proj.Domain.csproj",
-      "msbuildProject": "../Proj.Domain/Proj.Domain.csproj"
+      "path": "../contasLuz.Domain/contasLuz.Domain.csproj",
+      "msbuildProject": "../contasLuz.Domain/contasLuz.Domain.csproj"
     },
-    "Proj.Repository/1.0.0": {
+    "contasLuz.Repositories/1.0.0": {
       "type": "project",
-      "path": "../Proj.Repository/Proj.Repository.csproj",
-      "msbuildProject": "../Proj.Repository/Proj.Repository.csproj"
+      "path": "../contasLuz.Repositories/contasLuz.Repositories.csproj",
+      "msbuildProject": "../contasLuz.Repositories/contasLuz.Repositories.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13375,27 +13375,27 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Proj.Repository >= 1.0.0"
+      "contasLuz.Repositories >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Wagner\\.nuget\\packages\\": {},
+    "C:\\Users\\andre\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wagner\\Desktop\\Desenvolvimento c#\\Ulbra\\2019_2\\linguagem_comercial\\G2_Projeto2\\contasLuz.API\\contasLuz.API.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Documents\\05 - ulbra\\2019-2\\linguagem de programação comercial\\LPC\\contasLuz_Refatorada\\contasLuz.API\\contasLuz.API.csproj",
       "projectName": "contasLuz.API",
-      "projectPath": "C:\\Users\\Wagner\\Desktop\\Desenvolvimento c#\\Ulbra\\2019_2\\linguagem_comercial\\G2_Projeto2\\contasLuz.API\\contasLuz.API.csproj",
-      "packagesPath": "C:\\Users\\Wagner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wagner\\Desktop\\Desenvolvimento c#\\Ulbra\\2019_2\\linguagem_comercial\\G2_Projeto2\\contasLuz.API\\obj\\",
+      "projectPath": "C:\\Users\\andre\\Documents\\05 - ulbra\\2019-2\\linguagem de programação comercial\\LPC\\contasLuz_Refatorada\\contasLuz.API\\contasLuz.API.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andre\\Documents\\05 - ulbra\\2019-2\\linguagem de programação comercial\\LPC\\contasLuz_Refatorada\\contasLuz.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Wagner\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -13406,8 +13406,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\Wagner\\Desktop\\Desenvolvimento c#\\Ulbra\\2019_2\\linguagem_comercial\\G2_Projeto2\\Proj.Repository\\Proj.Repository.csproj": {
-              "projectPath": "C:\\Users\\Wagner\\Desktop\\Desenvolvimento c#\\Ulbra\\2019_2\\linguagem_comercial\\G2_Projeto2\\Proj.Repository\\Proj.Repository.csproj"
+            "C:\\Users\andre\Documents\\05 - ulbra\\2019-2\\linguagem de programação comercial\\LPC\\contasLuz_Refatorada\\contasLuz.Repositories\\contasLuz.Repositories.csproj": {
+              "projectPath": "C:\\Users\andre\Documents\\05 - ulbra\\2019-2\\linguagem de programação comercial\\LPC\\contasLuz_Refatorada\\contasLuz.Repositories\\contasLuz.Repositories.csproj"
             }
           }
         }

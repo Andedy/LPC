@@ -6,9 +6,9 @@ namespace contasLuz.MVC.ViewsModels
 {
     public class ImovelViewModel
     {
-        public ImovelViewModel(ImovelRepository imovelRepository)
+        public ImovelViewModel(ImovelRepositories imovelRepositories)
         {
-            this.listaImovel = imovelRepository.Get();
+            this.listaImovel = imovelRepositories.Get();
         }
         public IEnumerable<Imoveis> listaImovel { get; set; }
     }

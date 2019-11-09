@@ -1,5 +1,5 @@
 C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.csprojAssemblyReference.cache
-C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.csproj.CoreCompileInputs.cache
+C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.cscontasLuz.CoreCompileInputs.cache
 C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.RazorAssemblyInfo.cache
 C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.RazorAssemblyInfo.cs
 C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.AssemblyInfoInputs.cache
@@ -35,13 +35,13 @@ C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\bin\Debug\netcoreapp2.
 C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\bin\Debug\netcoreapp2.2\contasLuz.Domain.pdb
 C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\bin\Debug\netcoreapp2.2\contasLuz.Repositories.pdb
 C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.Views.pdb
-C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.csproj.CopyComplete
+C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.cscontasLuz.CopyComplete
 C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Imovel\Index.g.cshtml.cs
 C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Imovel\View.g.cshtml.cs
 C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Imovel\Create.g.cshtml.cs
 C:\Users\rober\Desktop\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\Razor\Views\Imovel\Update.g.cshtml.cs
 C:\Users\andre\Documents\05 - ulbra\2019-2\gits do pessoal\gitguilherme\lpc-torres-2019-2-master\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.csprojAssemblyReference.cache
-C:\Users\andre\Documents\05 - ulbra\2019-2\gits do pessoal\gitguilherme\lpc-torres-2019-2-master\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\05 - ulbra\2019-2\gits do pessoal\gitguilherme\lpc-torres-2019-2-master\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.cscontasLuz.CoreCompileInputs.cache
 C:\Users\andre\Documents\05 - ulbra\2019-2\gits do pessoal\gitguilherme\lpc-torres-2019-2-master\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.RazorAssemblyInfo.cache
 C:\Users\andre\Documents\05 - ulbra\2019-2\gits do pessoal\gitguilherme\lpc-torres-2019-2-master\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.RazorAssemblyInfo.cs
 C:\Users\andre\Documents\05 - ulbra\2019-2\gits do pessoal\gitguilherme\lpc-torres-2019-2-master\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.AssemblyInfoInputs.cache
@@ -49,7 +49,7 @@ C:\Users\andre\Documents\05 - ulbra\2019-2\gits do pessoal\gitguilherme\lpc-torr
 C:\Users\andre\Documents\05 - ulbra\2019-2\gits do pessoal\gitguilherme\lpc-torres-2019-2-master\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.dll
 C:\Users\andre\Documents\05 - ulbra\2019-2\gits do pessoal\gitguilherme\lpc-torres-2019-2-master\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.pdb
 C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.csprojAssemblyReference.cache
-C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.csproj.CoreCompileInputs.cache
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.cscontasLuz.CoreCompileInputs.cache
 C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.RazorAssemblyInfo.cache
 C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.RazorAssemblyInfo.cs
 C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.AssemblyInfoInputs.cache
@@ -89,4 +89,4 @@ C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\
 C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.RazorTargetAssemblyInfo.cache
 C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.RazorTargetAssemblyInfo.cs
 C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.Views.pdb
-C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.csproj.CopyComplete
+C:\Users\andre\Documents\05 - ulbra\2019-2\linguagem de programação comercial\LPC\contasLuz_Refatorada\contasLuz.MVC\obj\Debug\netcoreapp2.2\contasLuz.MVC.cscontasLuz.CopyComplete

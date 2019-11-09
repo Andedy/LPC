@@ -6,11 +6,11 @@ namespace contasLuz.MVC.ViewsModels
 {
     public class ContaLuzViewModel
     {
-        public ContaLuzViewModel(IContaLuzRepository contaLuzRepository)
+        public ContaLuzViewModel(IContaLuzRepositories contaLuzRepositories)
         {
-            this.listaContasLuz = contaLuzRepository.Get();
-            this.menorConsumo = contaLuzRepository.GetMenorConsumo();
-            this.maiorConsumo = contaLuzRepository.GetMaiorConsumo();
+            this.listaContasLuz = contaLuzRepositories.Get();
+            this.menorConsumo = contaLuzRepositories.GetMenorConsumo();
+            this.maiorConsumo = contaLuzRepositories.GetMaiorConsumo();
         }
 
         public IEnumerable<ContaLuz> listaContasLuz { get; set; }

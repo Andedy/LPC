@@ -3,7 +3,7 @@ using contasLuz.Entities;
 
 namespace contasLuz.interfaces
 {
-    public interface IImovelRepository
+    public interface IImovelRepositories
     {
         void Create(Imoveis Imoveis);
         void Update(Imoveis Imoveis);

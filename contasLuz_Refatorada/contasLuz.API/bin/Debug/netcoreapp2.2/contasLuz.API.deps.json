@@ -27,7 +27,7 @@
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
-          "Proj.Repository": "1.0.0"
+          "contasLuz.Repositories": "1.0.0"
         },
         "runtime": {
           "contasLuz.API.dll": {}
@@ -662,26 +662,26 @@
           "ref/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "Proj.Domain/1.0.0": {
+      "contasLuz.Domain/1.0.0": {
         "runtime": {
-          "Proj.Domain.dll": {}
+          "contasLuz.Domain.dll": {}
         },
         "compile": {
-          "Proj.Domain.dll": {}
+          "contasLuz.Domain.dll": {}
         }
       },
-      "Proj.Repository/1.0.0": {
+      "contasLuz.Repositories/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "2.2.6",
           "Microsoft.VisualStudio.Web.CodeGeneration.Tools": "2.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "2.2.4",
-          "Proj.Domain": "1.0.0"
+          "contasLuz.Domain": "1.0.0"
         },
         "runtime": {
-          "Proj.Repository.dll": {}
+          "contasLuz.Repositories.dll": {}
         },
         "compile": {
-          "Proj.Repository.dll": {}
+          "contasLuz.Repositories.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -4041,12 +4041,12 @@
       "path": "system.xml.xpath.xmldocument/4.0.1",
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
     },
-    "Proj.Domain/1.0.0": {
+    "contasLuz.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Proj.Repository/1.0.0": {
+    "contasLuz.Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

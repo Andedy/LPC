@@ -9,13 +9,13 @@ namespace contasLuz.API.Controllers
     [ApiController]
     public class ContaLuzController : ControllerBase
     {
-        private IContaLuzRepository repository;
-        private IImovelRepository imovelRepository;
+        private IContaLuzRepositories Repositories;
+        private IImovelRepositories imovelRepositories;
 
-        public ContaLuzController(IContaLuzRepository repository, IImovelRepository imovelRepository)
+        public ContaLuzController(IContaLuzRepositories Repositories, IImovelRepositories imovelRepositories)
         {
-            this.repository = repository;
-            this.imovelRepository = imovelRepository;
+            this.Repositories = Repositories;
+            this.imovelRepositories = imovelRepositories;
         }
 
         // GET api/values
@@ -26,7 +26,7 @@ namespace contasLuz.API.Controllers
             {
                 status = "200",
                 msg = "OK",
-                obj = repository.GetAll()
+                obj = Repositories.GetAll()
             });
         }
 
@@ -38,7 +38,7 @@ namespace contasLuz.API.Controllers
             {
                 status = "200",
                 msg = "OK",
-                obj = repository.GetByID(id)
+                obj = Repositories.GetByID(id)
             });
         }
 
@@ -46,12 +46,12 @@ namespace contasLuz.API.Controllers
         [HttpPost]
         public ActionResult Post([FromBody] ContaLuz entity)
         {
-            var imovel = imovelRepository.GetByID(entity.idimovel);
+            var imovel = imovelRepositories.GetByID(entity.idimovel);
 
             if (imovel != null)
                 entity.imovel = imovel;
 
-            repository.Create(entity);
+            Repositories.Create(entity);
 
             return Ok(new
             {
@@ -65,12 +65,12 @@ namespace contasLuz.API.Controllers
         [HttpPut("{id}")]
         public ActionResult Put(int id, [FromBody] ContaLuz entity)
         {
-            var imovel = imovelRepository.GetByID(entity.idimovel);
+            var imovel = imovelRepositories.GetByID(entity.idimovel);
 
             if (imovel != null)
                 entity.imovel = imovel;
 
-            repository.Update(entity);
+            Repositories.Update(entity);
 
             return Ok(new
             {
@@ -84,7 +84,7 @@ namespace contasLuz.API.Controllers
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            repository.Delete(id);
+            Repositories.Delete(id);
 
             return Ok(new
             {
