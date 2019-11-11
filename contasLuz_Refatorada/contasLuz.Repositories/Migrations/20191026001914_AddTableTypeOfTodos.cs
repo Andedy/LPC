@@ -9,7 +9,7 @@ namespace contasLuz.Repositories.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "ContasLuz",
+                name: "ContaLuz",
                 columns: table => new
                 {
                     id = table.Column<int>(nullable: false)
