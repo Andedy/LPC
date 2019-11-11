@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\andre\\Documents\\05 - ulbra\\2019-2\\linguagem de programação comercial\\LPC\\contasLuz_Refatorada\\contasLuz.MVC\\contasLuz.MVC.csproj",
+  "FilePath": "c:\\Users\\andre\\Documents\\05 - ulbra\\2019-2\\linguagem de programação comercial\\LPC\\contasLuz_Refatorada\\contasLuz.MVC\\ToDoList.MVC.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2958,88 +2958,7 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "contasLuz.MVC",
-  "Documents": [
-    {
-      "FilePath": "Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\ContaLuz\\Index.cshtml",
-      "TargetPath": "Views\\ContaLuz\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\ContaLuz\\Create.cshtml",
-      "TargetPath": "Views\\ContaLuz\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Shared\\_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Imovel\\View.cshtml",
-      "TargetPath": "Views\\Imovel\\View.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\ContaLuz\\Update.cshtml",
-      "TargetPath": "Views\\ContaLuz\\Update.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Imovel\\Create.cshtml",
-      "TargetPath": "Views\\Imovel\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Imovel\\Update.cshtml",
-      "TargetPath": "Views\\Imovel\\Update.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Imovel\\Index.cshtml",
-      "TargetPath": "Views\\Imovel\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Views\\ContaLuz\\View.cshtml",
-      "TargetPath": "Views\\ContaLuz\\View.cshtml",
-      "FileKind": "mvc"
-    }
-  ],
+  "RootNamespace": "ToDoList.MVC",
+  "Documents": [],
   "SerializationFormat": "0.2"
 }
